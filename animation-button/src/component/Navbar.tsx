@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
   const filterOption = (input: string, option?: { label: string; value: string }) =>
     (option?.label ?? '').toLowerCase().includes(input.toLowerCase());
 
-  return (
+  return (<div>
     <Select
     className='select-lang'
       showSearch
@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
           label: 'TH',
         },
       ]}
-    />
+    /></div>
   );
 };
 
