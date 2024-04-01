@@ -30,7 +30,9 @@ const resources = {
           "mr" : "mr",
           "mrs" : "mrs",
           "ms" : "ms",
-          "HOme" : "Home",
+          "Home" : "Home",
+          "Thai" : "Thai",
+          "American" : "American",
       }
   },
   th:{
@@ -62,6 +64,8 @@ const resources = {
           "mrs" : "นาง",
           "ms" : "นางสาว",
           "Home" : "หน้าหลัก",
+          "Thai" : "ไทย",
+          "American" : "อเมริกา"
       }
   }
 }
