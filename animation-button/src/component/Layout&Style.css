@@ -1,0 +1,271 @@
+.title{
+    display: flex;
+    margin-left: 40px;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.item1{
+    justify-content: center;
+}
+
+.item2{
+    justify-content: center;
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+
+.item3{
+    justify-content: center;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.item1-1{
+    background: white;
+    margin-right: 10px;
+    height: 80px;
+    width: 50px;
+    border-radius: 5px;
+    font-size: 70px;
+    text-align: center;
+}
+
+.item1-1:hover{
+    background: #ffa200;
+    cursor: pointer;
+}
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 55px solid grey;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+
+
+.triangle-top {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 60px solid grey;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+}
+
+
+.item1-2{
+    background: white;
+    margin-right: 10px;
+    height: 80px;
+    width: 150px;
+    border-radius: 5px;
+}
+.item1-2:hover{
+    background: #ffa200;
+    cursor: pointer;
+}
+
+.triangle-bottom {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 60px solid grey;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translateY(-50%);
+}
+
+
+.item1-3{
+    background: white;
+    height: 80px;
+    width: 50px;
+    border-radius: 5px;
+}
+.item1-3:hover{
+    background: #ffa200;
+    cursor: pointer;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 55px solid grey;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+
+
+.item2-1{
+    margin-right: 10px;
+    height: 80px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.item2-2{
+    background: white;
+    margin-right: 10px;
+    height: 80px;
+    width: 35px;
+    border-radius: 5px;
+}
+
+.item2-2:hover{
+    background: #ffa200;
+    cursor: pointer;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    background-color: grey;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+
+.item2-3{
+    background: white;
+    margin-right: 10px;
+    height: 80px;
+    width: 35px;
+    border-radius: 5px;
+}
+
+.item2-3:hover{
+    background: #ffa200;
+    cursor: pointer;
+}
+
+.circle {
+    width: 60px;
+    height: 60px; 
+    border-radius: 50%;
+    background-color: grey;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+
+.item2-4{
+    background: white;
+    height: 80px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.item2-4:hover{
+    background: #ffa200;
+    cursor: pointer;
+}
+
+.oval {
+    width: 170px;
+    height: 60px;
+    border-radius: 55%/55%;
+    background-color: grey;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+
+.item3-1{
+    background: white;
+    margin-right: 10px;
+    height: 80px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.item3-1:hover{
+    background: #ffa200;
+    cursor: pointer;
+}
+
+.trapezoid {
+    width: 120px;
+    height: 0;
+    border-bottom: 60px solid grey;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+
+
+.item3-2{
+    background: white;
+    margin-right: 10px;
+    height: 80px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.item3-2:hover{
+    background: #ffa200;
+    cursor: pointer;
+}
+
+.rectangle {
+    width: 180px;
+    height: 60px;
+    background-color: grey;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+
+.item3-3{
+    background: white;
+    margin-right: 10px;
+    height: 80px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.item3-3:hover{
+    background: #ffa200;
+    cursor: pointer;
+}
+
+.parallelogram {
+    width: 140px;
+    height: 60px;
+    background-color: grey;
+    transform: skewX(20deg);
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
