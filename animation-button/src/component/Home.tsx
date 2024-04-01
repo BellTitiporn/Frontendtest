@@ -8,8 +8,9 @@ function Home() {
     const { t } = useTranslation();
 
   return (
-    <div><Navbar/>
-    <div className='container'>
+    <div className="wrapper">
+        <div className="navbar-home"><Navbar/>
+        <div className='container'>
       <Row gutter={16}>
         <Col span={8}>
             <Link to="/layout">
@@ -32,7 +33,7 @@ function Home() {
         </Col>
     </Row>
     </div>
-  </div>
+  </div></div>
   )
 }
 
