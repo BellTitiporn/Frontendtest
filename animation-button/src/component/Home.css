@@ -32,5 +32,15 @@
     margin-left: 1px;
     border-radius: 2px;
   }
-  
-  
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.navbar-home{
+  position: relative;
+  margin-top: 20px;
+  margin-left: 20px;
+}
