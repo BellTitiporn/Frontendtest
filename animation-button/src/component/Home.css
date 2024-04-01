@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+    display: flex;
+    padding-top: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .card1{
+    width: 300px;
+    margin-right: 1x;
+    margin-left: 1px;
+    border-radius: 2px;
+  }
+  
+  .card2{
+    width: 300px;
+    margin-right: 1px;
+    margin-left: 1px;
+    border-radius: 2px;
+  }
+  
+  .card3{
+    width: 300px;
+    margin-right: 1px;
+    margin-left: 1px;
+    border-radius: 2px;
+  }
+  
+  
