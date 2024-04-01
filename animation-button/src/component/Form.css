@@ -1,6 +1,21 @@
-.navbar{
-    margin-left: 50px;
+.navbar-form{
+    position: absolute;
+    top: 1;
+    right: 0;
 }
+
+.table{
+    position: absolute;
+    padding: "20px";
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+/* .container{
+    position: relative;
+} */
 
 .back{
     cursor: pointer;
@@ -8,6 +23,14 @@
     border-radius: 4px;
     border: none;
     padding: 5px;
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 50px;
+    margin-top: 40px;
+    position: absolute;
+    right: 0;
+}
+
+.title-form{
+    margin-top: 20px;
+    margin-left: 20px;
 }
